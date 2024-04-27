@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="page">
+      <div class="user">  <label for="username" id="use"> Email or Username</label><br>
+        <input type="text" id="username" required minlength="4"  ><br>
+      </div>
+     <div class="pass"><label  id="pass" for="password"> password</label><br>
+        <input type="password" id="password" required minlength="8" maxlength="12"> </div>
+        <span id="case">   </span><br>
+        <button id="show" onclick="login()"> LOGIN</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

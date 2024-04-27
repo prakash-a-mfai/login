@@ -1,0 +1,42 @@
+.page{
+    height:300px;
+    width:300px;
+    border: solid black 1px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 200px;
+}
+.user #username{
+    margin: auto;
+    height: 30px;
+    width: 220px;
+}
+.user{
+    margin-left: 30px;
+    margin-top:40px;
+}
+.pass{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.pass #password{
+    height: 30px;
+    width: 220px;
+}
+#use{
+    color:black;
+    font-size:20px;
+}
+#pass{
+    color:black;
+    font-size:20px;
+}   
+#show{
+    height: 40px;
+    width: 220px;
+    background-color: green;
+    color: white;
+     margin-left: 30px;
+    /* margin-top: 20px; */
+}
+
